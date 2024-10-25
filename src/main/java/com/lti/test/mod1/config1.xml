@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            
+     <bean name="myStudent" class="com.lti.test.mod1.Student">
+    <!--  <property name="id"><value>121</value></property>
+     <property name="name"><value>Mohammed</value></property>
+     <property name="marks"><value>78.88</value></property> -->
+     <property name="id" value="123"></property>
+     <property name="name" value="mohan"></property>
+     <property name="marks" value="78.90"></property>
+     </bean>
+     
+     <bean name="myStudent2" class="com.lti.test.mod1.Student">
+     <property name="id"><value>122</value></property>
+     <property name="name"><value>altaf</value></property>
+     <property name="marks"><value>88.88</value></property>
+     </bean>
+            
+</beans>
